@@ -1,0 +1,57 @@
+interface PianoKey {
+  note: string
+  freq: number
+  color: "white" | "black"
+  key?: string
+}
+
+export const keys: PianoKey[] = [
+  {note: "C3", freq: 130.81, color: "white", key: "q"},
+  {note: "C#3", freq: 138.59, color: "black", key: "2"},
+  {note: "D3", freq: 146.83, color: "white", key: "w"},
+  {note: "D#3", freq: 155.56, color: "black", key: "3"},
+  {note: "E3", freq: 164.81, color: "white", key: "e"},
+  {note: "F3", freq: 174.61, color: "white", key: "r"},
+  {note: "F#3", freq: 185.0, color: "black", key: "5"},
+  {note: "G3", freq: 196.0, color: "white", key: "t"},
+  {note: "G#3", freq: 207.65, color: "black", key: "6"},
+  {note: "A3", freq: 220.0, color: "white", key: "y"},
+  {note: "A#3", freq: 233.08, color: "black", key: "7"},
+  {note: "B3", freq: 246.94, color: "white", key: "u"},
+  {note: "C4", freq: 261.63, color: "white", key: "a"},
+  {note: "C#4", freq: 277.18, color: "black", key: "ğ"},
+  {note: "D4", freq: 293.66, color: "white", key: "s"},
+  {note: "D#4", freq: 311.13, color: "black", key: "i"},
+  {note: "E4", freq: 329.63, color: "white", key: "d"},
+  {note: "F4", freq: 349.23, color: "white", key: "f"},
+  {note: "F#4", freq: 369.99, color: "black", key: "o"},
+  {note: "G4", freq: 392.0, color: "white", key: "g"},
+  {note: "G#4", freq: 415.3, color: "black", key: "p"},
+  {note: "A4", freq: 440.0, color: "white", key: "h"},
+  {note: "A#4", freq: 466.16, color: "black", key: "ü"},
+  {note: "B4", freq: 493.88, color: "white", key: "j"},
+  {note: "C5", freq: 523.25, color: "white", key: "z"},
+  {note: "C#5", freq: 554.37, color: "black", key: "8"},
+  {note: "D5", freq: 587.33, color: "white", key: "x"},
+  {note: "D#5", freq: 622.25, color: "black", key: "9"},
+  {note: "E5", freq: 659.25, color: "white", key: "c"},
+  {note: "F5", freq: 698.46, color: "white", key: "v"},
+  {note: "F#5", freq: 739.99, color: "black", key: "0"},
+  {note: "G5", freq: 783.99, color: "white", key: "b"},
+  {note: "G#5", freq: 830.61, color: "black", key: "ş"},
+  {note: "A5", freq: 880.0, color: "white", key: "n"},
+  {note: "A#5", freq: 932.33, color: "black", key: "ö"},
+  {note: "B5", freq: 987.77, color: "white", key: "m"},
+  {note: "C6", freq: 1046.5, color: "white", key: "q"},
+  {note: "C#6", freq: 1108.73, color: "black", key: "2"},
+  {note: "D6", freq: 1174.66, color: "white", key: "w"},
+  {note: "D#6", freq: 1244.51, color: "black", key: "3"},
+  {note: "E6", freq: 1318.51, color: "white", key: "e"},
+  {note: "F6", freq: 1396.91, color: "white", key: "r"},
+  {note: "F#6", freq: 1479.98, color: "black", key: "5"},
+  {note: "G6", freq: 1567.98, color: "white", key: "t"},
+  {note: "G#6", freq: 1661.22, color: "black", key: "6"},
+  {note: "A6", freq: 1760.0, color: "white", key: "y"},
+  {note: "A#6", freq: 1864.66, color: "black", key: "7"},
+  {note: "B6", freq: 1975.53, color: "white", key: "u"}
+]
