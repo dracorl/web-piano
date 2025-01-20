@@ -1,50 +1,48 @@
-# React + TypeScript + Vite
+# Web-Based Music Synthesizer 🎹
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive music synthesizer built with vanilla JavaScript that leverages the power of Web Audio API to create rich, dynamic sound experiences directly in the browser.
 
-Currently, two official plugins are available:
+## 🌟 Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Real-time sound synthesis using Web Audio API
+- Multiple waveform types (Sine, Square, Sawtooth, Triangle)
+- Dynamic envelope control (ADSR - Attack, Decay, Sustain, Release)
+- Interactive virtual piano keyboard
+- Built-in effects including:
+  - Reverb
+  - Delay
+  - Filter
+  - Distortion
+- Responsive design for both desktop and mobile devices
 
-## Expanding the ESLint configuration
+### Core Technologies
+- Typescript
+- React
+- Vite
+- TailwindCSS
+- Web Audio API
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🔧 Installation & Usage
 
-- Configure the top-level `parserOptions` property like this:
+Go to [Web Piano Github Page](https://dracorl.github.io/web-piano/)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+or
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+1. Clone the repository
+  - https://github.com/dracorl/web-piano.git
+2. Open directory
+  - cd web-piano
+3. Install dependencies
+  - npm i
+4. Build the project
+  - npm run build
+5. Open `index.html` in a modern web browser
+6. Start making music!
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 📝 License
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+MIT License - feel free to use this project for learning and development purposes.
+
+---
+
+Built with 🎵
